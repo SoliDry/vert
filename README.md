@@ -1,2 +1,2 @@
-# vertical
-Vertical is a column oriented database with SQL syntax support
+# Vert
+Vert is a column oriented database with SQL syntax support
