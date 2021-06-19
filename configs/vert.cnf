@@ -1,0 +1,28 @@
+# default binding address
+bind.address = 127.0.0.1
+
+# maximum memory for DB
+memory.db = 2G
+
+# maximum memory for a table
+memory.table = 100M
+
+# how many disk space will be used
+disk.space = 75%
+
+# nodes for storage
+node.count = 5
+
+# dir where to store data/index files
+dir.db = /var/lib/vertical/
+
+# log errors
+log.errors = /var/log/vertical/errors.log
+
+# maximum connections
+connections.max = 200
+
+# slow query log
+log.slow_query = 1
+log.slow_query_file = /var/log/vertical/slow_queries.log
+log.slow_query_time = 2
